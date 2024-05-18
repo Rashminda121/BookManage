@@ -71,3 +71,5 @@ D:\Projects\C# Projects\BookManagement\obj\Debug\BookManagement.csproj.CoreCompi
 D:\Projects\C# Projects\BookManagement\obj\Debug\BookMana.AEF0CC0B.Up2Date
 D:\Projects\C# Projects\BookManagement\obj\Debug\BookManagement.dll
 D:\Projects\C# Projects\BookManagement\obj\Debug\BookManagement.pdb
+D:\Projects\C# Projects\BookManagement\bin\DocumentFormat.OpenXml.dll
+D:\Projects\C# Projects\BookManagement\bin\DocumentFormat.OpenXml.xml
