@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\C# Projects\\BookManagement\\",
+  "WorkspaceRootPath": "D:\\Git Hub\\BookManage\\BookManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|D:\\Projects\\C# Projects\\BookManagement\\views\\admin\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\admin\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|D:\\Projects\\C# Projects\\BookManagement\\views\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|d:\\projects\\c# projects\\bookmanagement\\views\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|d:\\git hub\\bookmanage\\bookmanagement\\views\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\admin\\adminmaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|D:\\Git Hub\\BookManage\\BookManagement\\Views\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:Views\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:Views\\Admin\\Books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +22,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Projects\\C# Projects\\BookManagement\\Views\\Login.aspx",
+              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Login.aspx",
               "RelativeDocumentMoniker": "Views\\Login.aspx",
-              "ToolTip": "D:\\Projects\\C# Projects\\BookManagement\\Views\\Login.aspx",
+              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Login.aspx",
               "RelativeToolTip": "Views\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-13T18:29:46.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:29:46.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AdminMaster.Master",
-              "DocumentMoniker": "D:\\Projects\\C# Projects\\BookManagement\\Views\\Admin\\AdminMaster.Master",
+              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\AdminMaster.Master",
               "RelativeDocumentMoniker": "Views\\Admin\\AdminMaster.Master",
-              "ToolTip": "D:\\Projects\\C# Projects\\BookManagement\\Views\\Admin\\AdminMaster.Master",
+              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\AdminMaster.Master",
               "RelativeToolTip": "Views\\Admin\\AdminMaster.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -52,16 +51,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Books.aspx",
-              "DocumentMoniker": "D:\\Projects\\C# Projects\\BookManagement\\Views\\Admin\\Books.aspx",
+              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx",
               "RelativeDocumentMoniker": "Views\\Admin\\Books.aspx",
-              "ToolTip": "D:\\Projects\\C# Projects\\BookManagement\\Views\\Admin\\Books.aspx",
+              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx",
               "RelativeToolTip": "Views\\Admin\\Books.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-13T18:28:27.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T18:28:27.132Z"
             }
           ]
         }
