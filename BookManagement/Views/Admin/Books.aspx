@@ -16,11 +16,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="" class="from-label text-success">Book Author</label>
-                    <input type="text" placeholder="Author" autocomplete="off" class="form-control"/>
+                    <asp:DropDownList ID="DropDownList2" runat="server" class="form-control"></asp:DropDownList>
                 </div>
                 <div class="mb-3">
                     <label for="" class="from-label text-success">Categories</label>
-                    <input type="text" placeholder="Categories" autocomplete="off" class="form-control"/>
+                    <asp:DropDownList ID="DropDownList1" runat="server" class="form-control"></asp:DropDownList>
                 </div>
                 <div class="mb-3">
                     <label for="" class="from-label text-success">Price</label>
@@ -32,13 +32,13 @@
                 </div>
                 <div class="row">
                       <div class="col d-grid">
-                         <asp:Button Text="Login" runat="server" class="btn-success btn-block btn"/>
+                         <asp:Button Text="Update" runat="server" class="btn-warning btn-block btn"/>
                       </div>
                       <div class="col d-grid">
-                        <asp:Button Text="Login" runat="server" class="btn-success btn-block btn"/>
+                        <asp:Button Text="Save" runat="server" class="btn-success btn-block btn"/>
                       </div>
                       <div class="col d-grid">
-                        <asp:Button Text="Login" runat="server" class="btn-success btn-block btn"/>
+                        <asp:Button Text="Delete" runat="server" class="btn-danger btn-block btn"/>
                       </div>
                     
                 </div>
@@ -48,7 +48,7 @@
 
             </div>
              <div class="col-md-8">
-
+                 <asp:GridView ID="GridView1" runat="server"></asp:GridView>
             </div>
         </div>
 </div>
