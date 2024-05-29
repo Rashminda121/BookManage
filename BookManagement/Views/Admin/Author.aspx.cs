@@ -33,6 +33,15 @@ namespace BookManagement
                 }
                 else
                 {
+                    string AName=ANameTb.Value;
+                    string Gender=GenCb.SelectedItem.ToString();
+                    string Country=CountryCb.SelectedItem.ToString();
+
+                    string Query = "insert into author values('{0}','{1}','{2}')";
+                    Query =string.Format(Query, AName, Gender, Country);
+                    Con.SetData(Query);
+                    ShowAuthors() ;
+                    errMsg.Text = "Author Inserted!";
 
                 }
 
