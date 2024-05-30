@@ -116,9 +116,6 @@ namespace BookManagement.Views.Admin
                 }
                 else
                 {
-                    string CName = CatNameTb.Value;
-                    string CDesc = DescriptionTb.Value;
-
                     string Query = "delete from category where cid='{0}'";
                     Query = string.Format(Query, CategoriesList.SelectedRow.Cells[1].Text);
                     Con.SetData(Query);

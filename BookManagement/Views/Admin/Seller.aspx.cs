@@ -126,11 +126,6 @@ namespace BookManagement.Views.Admin
                 }
                 else
                 {
-                    string sName = SName.Value;
-                    string sEmail = SEmail.Value;
-                    string sPhone = SPhone.Value;
-                    string sAdd = SAddress.Value;
-
                     string Query = "delete from seller where sid='{0}'";
                     Query = string.Format(Query, SellersList.SelectedRow.Cells[1].Text);
                     Con.SetData(Query);

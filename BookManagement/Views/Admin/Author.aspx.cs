@@ -66,8 +66,8 @@ namespace BookManagement
         protected void AuthorsList_SelectedIndexChanged(object sender, EventArgs e)
         {
             ANameTb.Value = AuthorsList.SelectedRow.Cells[2].Text;
-            GenCb.SelectedItem.Value = AuthorsList.SelectedRow.Cells[3].Text;
-            CountryCb.SelectedItem.Value = AuthorsList.SelectedRow.Cells[4].Text;
+            GenCb.SelectedValue = AuthorsList.SelectedRow.Cells[3].Text;
+            CountryCb.SelectedValue = AuthorsList.SelectedRow.Cells[4].Text;
             if (ANameTb.Value == "")
             {
                 Key = 0;

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Git Hub\\BookManage\\BookManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|d:\\git hub\\bookmanage\\bookmanagement\\views\\admin\\seller.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\admin\\seller.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|d:\\git hub\\bookmanage\\bookmanagement\\views\\admin\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\admin\\books.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|d:\\git hub\\bookmanage\\bookmanagement\\views\\admin\\seller.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\admin\\seller.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|d:\\git hub\\bookmanage\\bookmanagement\\views\\admin\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|solutionrelative:views\\admin\\books.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51DD475F-7777-4E13-815C-23B95D2FAC9D}|BookManagement.csproj|D:\\Git Hub\\BookManage\\BookManagement\\views\\admin\\author.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Seller.aspx.cs",
-              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Seller.aspx.cs",
-              "RelativeDocumentMoniker": "Views\\Admin\\Seller.aspx.cs",
-              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Seller.aspx.cs",
-              "RelativeToolTip": "Views\\Admin\\Seller.aspx.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAgwIUAAAA2AAAA",
+              "Title": "Books.aspx.cs",
+              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx.cs",
+              "RelativeDocumentMoniker": "Views\\Admin\\Books.aspx.cs",
+              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx.cs",
+              "RelativeToolTip": "Views\\Admin\\Books.aspx.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAuwIoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:47:29.146Z",
+              "WhenOpened": "2024-05-30T11:27:26.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Seller.aspx",
-              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Seller.aspx",
-              "RelativeDocumentMoniker": "Views\\Admin\\Seller.aspx",
-              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Seller.aspx",
-              "RelativeToolTip": "Views\\Admin\\Seller.aspx",
+              "Title": "Books.aspx",
+              "DocumentMoniker": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx",
+              "RelativeDocumentMoniker": "Views\\Admin\\Books.aspx",
+              "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Books.aspx",
+              "RelativeToolTip": "Views\\Admin\\Books.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-05-30T10:43:59.953Z",
+              "WhenOpened": "2024-05-30T11:18:58.988Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Views\\Admin\\Author.aspx.cs",
               "ToolTip": "D:\\Git Hub\\BookManage\\BookManagement\\Views\\Admin\\Author.aspx.cs",
               "RelativeToolTip": "Views\\Admin\\Author.aspx.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAkwD8AAAAHAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAAEkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T18:05:00.941Z",
               "EditorCaption": ""
