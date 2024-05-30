@@ -106,7 +106,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\Images\author.png" />
     <Content Include="Assets\Images\book.png" />
+    <Content Include="Assets\Images\cart.png" />
+    <Content Include="Assets\Images\category.png" />
+    <Content Include="Assets\Images\logout.png" />
+    <Content Include="Assets\Images\logout2.png" />
+    <Content Include="Assets\Images\poem.png" />
+    <Content Include="Assets\Images\seller.png" />
     <Content Include="Assets\Images\user.png" />
     <Content Include="Assets\lib\bootstrap.css" />
     <Content Include="Views\Admin\Author.aspx" />
