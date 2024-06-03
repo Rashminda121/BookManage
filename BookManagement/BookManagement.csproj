@@ -113,6 +113,7 @@
     <Content Include="Assets\Images\logout.png" />
     <Content Include="Assets\Images\logout2.png" />
     <Content Include="Assets\Images\poem.png" />
+    <Content Include="Assets\Images\profile.png" />
     <Content Include="Assets\Images\seller.png" />
     <Content Include="Assets\Images\user.png" />
     <Content Include="Assets\lib\bootstrap.css" />
@@ -199,6 +200,7 @@
     <Content Include="Views\Admin\Categories.aspx" />
     <Content Include="Views\Admin\Seller.aspx" />
     <Content Include="Views\Login.aspx" />
+    <Content Include="Views\Seller\Selling.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -295,16 +297,30 @@
     <Compile Include="Views\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Seller\SellerMaster.Master.cs">
+      <DependentUpon>SellerMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Seller\SellerMaster.Master.designer.cs">
+      <DependentUpon>SellerMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Seller\Selling.aspx.cs">
+      <DependentUpon>Selling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Seller\Selling.aspx.designer.cs">
+      <DependentUpon>Selling.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Seller\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\Admin\AdminMaster.Master" />
+    <Content Include="Views\Seller\SellerMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

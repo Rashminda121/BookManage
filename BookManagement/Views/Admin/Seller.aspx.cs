@@ -99,11 +99,11 @@ namespace BookManagement.Views.Admin
                     string sPhone = SPhone.Value;
                     string sAdd = SAddress.Value;
 
-                    string Query = "update seller set sname='{0}', semail='{1}', sphone='{2}', saddress='{3}' where sid='{4}'";
+                    string Query = "update seller set sname='{0}', semail='{1}', sphone='{2}', spass='{3}' where sid='{4}'";
                     Query = string.Format(Query, sName, sEmail, sPhone, sAdd, SellersList.SelectedRow.Cells[1].Text);
                     Con.SetData(Query);
                     ShowSellers();
-                    errMsg.Text = "Author Updated Successfully!";
+                    errMsg.Text = "Seller Updated Successfully!";
 
                     clearData();
 

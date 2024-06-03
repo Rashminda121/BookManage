@@ -23,8 +23,8 @@
                     <input type="text" placeholder="Phone Number" autocomplete="off" class="form-control" runat="server" id="SPhone"/>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Seller Address</label>
-                    <input type="text" placeholder="Address" autocomplete="off" class="form-control" runat="server" id="SAddress"/>
+                    <label for="" class="from-label text-success">Seller Password</label>
+                    <input type="password" placeholder="password" autocomplete="off" class="form-control" runat="server" id="SAddress"/>
                 </div>
                 
                 <div class="row">

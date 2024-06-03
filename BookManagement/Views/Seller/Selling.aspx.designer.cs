@@ -7,48 +7,48 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BookManagement.Views.Admin
+namespace BookManagement.Views.Seller
 {
 
 
-    public partial class Seller
+    public partial class Selling
     {
 
         /// <summary>
-        /// SName control.
+        /// BName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText SName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText BName;
 
         /// <summary>
-        /// SEmail control.
+        /// Price control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl SEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Price;
 
         /// <summary>
-        /// SPhone control.
+        /// Quan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText SPhone;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Quan;
 
         /// <summary>
-        /// SAddress control.
+        /// Date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword SAddress;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl Date;
 
         /// <summary>
         /// errMsg control.
@@ -60,39 +60,48 @@ namespace BookManagement.Views.Admin
         protected global::System.Web.UI.WebControls.Label errMsg;
 
         /// <summary>
-        /// editBtn control.
+        /// AddToBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button editBtn;
+        protected global::System.Web.UI.WebControls.Button AddToBtn;
 
         /// <summary>
-        /// saveBtn control.
+        /// BooksList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button saveBtn;
+        protected global::System.Web.UI.WebControls.GridView BooksList;
 
         /// <summary>
-        /// deleteBtn control.
+        /// BillList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button deleteBtn;
+        protected global::System.Web.UI.WebControls.GridView BillList;
 
         /// <summary>
-        /// SellersList control.
+        /// GrndTotal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView SellersList;
+        protected global::System.Web.UI.WebControls.Label GrndTotal;
+
+        /// <summary>
+        /// printBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button printBtn;
     }
 }

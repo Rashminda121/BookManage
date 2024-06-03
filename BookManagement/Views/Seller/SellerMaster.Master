@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="BookManagement.Views.Admin.AdminMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SellerMaster.master.cs" Inherits="BookManagement.Views.Seller.SellerMaster" %>
 
 <!DOCTYPE html>
 
@@ -39,7 +39,7 @@
                 <div class="p-2">
                     <div class="mb-3">
                         <img src="../../Assets/Images/book.png" height="40" width="40"/>
-                        <a href="Books.aspx"><label>Books</label></a>
+                        <a href="Books.aspx"><label>Billing</label></a>
                     </div>
                     <div class="mb-3">
                         <img src="../../Assets/Images/poem.png" height="40" width="40"/>
