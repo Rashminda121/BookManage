@@ -3,31 +3,31 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-            <h3 class="text-center">Manage Books</h3>
+      <div class="row mt-3">
+        <div class="col mb-3">
+            <h3 class="text-center" style="color:#02487a;">Manage Books</h3>
         </div>
       </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Books Title</label>
+                    <label for="" class="form-label " style="color:#02487a;">Books Title</label>
                     <input type="text" placeholder="Title" autocomplete="off" class="form-control" runat="server" id="BName"/>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Book Author</label>
+                    <label for="" class="form-label " style="color:#02487a;">Book Author</label>
                     <asp:DropDownList ID="BAuth" runat="server" class="form-control"></asp:DropDownList>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Categories</label>
+                    <label for="" class="form-label " style="color:#02487a;">Categories</label>
                     <asp:DropDownList ID="BCat" runat="server" class="form-control"></asp:DropDownList>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Price</label>
+                    <label for="" class="form-label " style="color:#02487a;">Price</label>
                     <input type="text" placeholder="Price" autocomplete="off" class="form-control" runat="server" id="Price"/>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Quantity</label>
+                    <label for="" class="form-label " style="color:#02487a;">Quantity</label>
                     <input type="text" placeholder="Quantity" autocomplete="off" class="form-control" runat="server" id="Quan"/>
                 </div>
                 <div class="row">
@@ -49,7 +49,7 @@
                     <AlternatingRowStyle BackColor="White" />
                     <EditRowStyle BackColor="#7C6F57" />
                     <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                    <HeaderStyle BackColor="teal" Font-Bold="false" ForeColor="White" />
+                    <HeaderStyle BackColor="#02487a" Font-Bold="false" ForeColor="White" />
                     <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
                     <RowStyle BackColor="#E3EAEB" />
                     <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />

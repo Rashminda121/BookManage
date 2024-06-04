@@ -42,13 +42,13 @@ namespace BookManagement.Views.Admin
         protected global::System.Web.UI.HtmlControls.HtmlInputText SPhone;
 
         /// <summary>
-        /// SAddress control.
+        /// SPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword SAddress;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText SPass;
 
         /// <summary>
         /// errMsg control.

@@ -1,7 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Seller/SellerMaster.Master" AutoEventWireup="true" CodeBehind="Selling.aspx.cs" Inherits="BookManagement.Views.Seller.Selling" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+     <script type="text/javascript">
+
+         function PrintBill() {
+             var PGrid = document.getElementById('<%=BillList.ClientID%>');
+             PGrid.bordr = 0;
+             var Pwin = window.open('', 'PrintGrid', 'left=100,top=100, width=1024,height=768,tollbar=0,scrollbars=1,status=0,resizable=1');
+             Pwin.document.write(PGrid.outerHTML);
+             Pwin.document.close();
+             Pwin.focus();
+             Pwin.print();
+             Pwin.close();
+         }
+     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
+   
 
     <div class="container-fluid">
         <div class="row">
@@ -9,18 +23,18 @@
         </div>
         <div class="row mt-5">
             <div class="col-md-5">
-                <h3 class="text-center" style="color:teal;">Book Details</h3>   
+                <h3 class="text-center" style="color:#02487a;">Book Details</h3>   
 
                 <div class="row"> 
                     <div class="col">
                         <div class="mt-3">
-                            <label for="" class="form-label text-success">Book Name</label>
+                            <label for="" class="form-label " style="color:#02487a;">Book Name</label>
                             <input type="text" placeholder="Name" autocomplete="off" class="form-control" runat="server" id="BName"/>
                         </div>
                     </div>
                      <div class="col">
                          <div class="mt-3">
-                             <label for="" class="form-label text-success">Book Price</label>
+                             <label for="" class="form-label " style="color:#02487a;">Book Price</label>
                              <input type="text" placeholder="Price" autocomplete="off" class="form-control" runat="server" id="Price"/>
                          </div>
                      </div>
@@ -30,14 +44,14 @@
                 <div class="row"> 
                     <div class="col">
                         <div class="mt-3">
-                            <label for="" class="form-label text-success">Quantity</label>
+                            <label for="" class="form-label " style="color:#02487a;">Quantity</label>
                             <input type="text" placeholder="Quantity" autocomplete="off" class="form-control" runat="server" id="Quan"/>
                         </div>
                     </div>
                      <div class="col">
                          <div class="mt-3">
-                             <label for="" class="form-label text-success">Billing Date</label>
-                             <input type="date"  class="form-control" runat="server" id="Date"/>
+                             <label for="" class="form-label " style="color:#02487a;">Billing Date</label>
+                             <input type="datetime"  class="form-control" runat="server" id="Date"/>
                          </div>
                      </div>
                     <div class="row mt-3 mb-3">
@@ -56,7 +70,7 @@
                             <AlternatingRowStyle BackColor="White" />
                             <EditRowStyle BackColor="#7C6F57" />
                             <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                            <HeaderStyle BackColor="teal" Font-Bold="false" ForeColor="White" />
+                            <HeaderStyle BackColor="#02487a" Font-Bold="false" ForeColor="White" />
                             <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
                             <RowStyle BackColor="#E3EAEB" />
                             <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
@@ -76,7 +90,7 @@
                         <AlternatingRowStyle BackColor="White" />
                         <EditRowStyle BackColor="#7C6F57" />
                         <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                        <HeaderStyle BackColor="teal" Font-Bold="false" ForeColor="White" />
+                        <HeaderStyle BackColor="Teal" Font-Bold="false" ForeColor="White" />
                         <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
                         <RowStyle BackColor="#E3EAEB" />
                         <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
@@ -88,7 +102,9 @@
 
                     <div class="d-grid">
                         <asp:Label runat="server" ID="GrndTotal" class="text-danger mb-3 "></asp:Label>
-                        <asp:Button Text="Print" runat="server" class="btn-warning btn-block btn" ID="printBtn"/>
+                        <asp:Label runat="server" ID="Msg" class="text-danger mb-3 "></asp:Label>
+
+                        <asp:Button Text="Print" runat="server" class="btn-warning btn-block btn" ID="printBtn" OnClientClick="PrintBill()" OnClick="printBtn_Click"/>
 
                     </div>
                     

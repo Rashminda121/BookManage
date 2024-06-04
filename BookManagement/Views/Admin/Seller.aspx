@@ -3,28 +3,28 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-            <h3 class="text-center">Manage Sellers</h3>
+      <div class="row mt-3">
+        <div class="col mb-3">
+            <h3 class="text-center" style="color:#02487a;">Manage Sellers</h3>
         </div>
       </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Seller Name</label> 
+                    <label for="" class="form-label" style="color:#0f74bc;">Seller Name</label> 
                     <input type="text" placeholder="Name" autocomplete="off" class="form-control" runat="server" id="SName"/>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Seller Email</label>
+                    <label for="" class="form-label" style="color:#0f74bc;">Seller Email</label>
                     <input type="email" placeholder="Email" autocomplete="off" class="form-control" runat="server" id="SEmail"/>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Seller Phone</label>
+                    <label for="" class="form-label" style="color:#0f74bc;">Seller Phone</label>
                     <input type="text" placeholder="Phone Number" autocomplete="off" class="form-control" runat="server" id="SPhone"/>
                 </div>
                 <div class="mb-3">
-                    <label for="" class="from-label text-success">Seller Password</label>
-                    <input type="password" placeholder="password" autocomplete="off" class="form-control" runat="server" id="SAddress"/>
+                    <label for="" class="form-label" style="color:#0f74bc;">Seller Password</label>
+                    <input type="text" placeholder="password" autocomplete="off" class="form-control" runat="server" id="SPass"/>
                 </div>
                 
                 <div class="row">
@@ -50,7 +50,7 @@
                      <AlternatingRowStyle BackColor="White" />
                      <EditRowStyle BackColor="#7C6F57" />
                      <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                     <HeaderStyle BackColor="teal" Font-Bold="false" ForeColor="White" />
+                     <HeaderStyle BackColor="#02487a" Font-Bold="false" ForeColor="White" />
                      <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
                      <RowStyle BackColor="#E3EAEB" />
                      <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />

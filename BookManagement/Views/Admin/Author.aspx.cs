@@ -19,7 +19,7 @@ namespace BookManagement
 
         private void ShowAuthors()
         {
-            String Query = "Select * from author";
+            String Query = "Select aid as Id,aname as AName, agender as Gender, acountry as Country  from author";
             AuthorsList.DataSource = Con.GetData(Query);
             AuthorsList.DataBind();
         }

@@ -12,7 +12,7 @@
         #left {
           color: white;
           height:695px;
-          background-color: teal;
+          background-color: #02487a;
         }
         label{
             color:white;
@@ -39,20 +39,14 @@
                 <div class="p-2">
                     <div class="mb-3">
                         <img src="../../Assets/Images/book.png" height="40" width="40"/>
-                        <a href="Books.aspx"><label>Billing</label></a>
+                        <a href="Billing.aspx"><label>Billings</label></a>
                     </div>
-                    <div class="mb-3">
-                        <img src="../../Assets/Images/poem.png" height="40" width="40"/>
-                        <a href="Author.aspx"><label>Authors</label></a>
-                    </div>
+                    
                     <div class="mb-3">
                         <img src="../../Assets/Images/seller.png" height="40" width="40"/>
-                        <a href="Seller.aspx"><label>Sellers</label></a>
+                        <a href="Selling.aspx"><label>Selling</label></a>
                     </div>
-                    <div class="mb-3">
-                        <img src="../../Assets/Images/category.png" height="40" width="40"/>
-                        <a href="Categories.aspx"><label>Categories</label></a>
-                    </div>
+                    
 
                     <div style="height:200px"></div>
 

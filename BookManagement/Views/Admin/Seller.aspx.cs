@@ -19,7 +19,7 @@ namespace BookManagement.Views.Admin
         }
         private void ShowSellers()
         {
-            String Query = "Select * from seller";
+            String Query = "Select sid as Id, sname as SName,semail as Email,sphone as Phone,spass as Password from seller";
             SellersList.DataSource = Con.GetData(Query);
             SellersList.DataBind();
         }
@@ -28,7 +28,7 @@ namespace BookManagement.Views.Admin
         {
             try
             {
-                if (SName.Value == "" || SEmail.Value=="" || SPhone.Value==""|| SAddress.Value=="")
+                if (SName.Value == "" || SEmail.Value=="" || SPhone.Value==""|| SPass.Value=="")
                 {
                     errMsg.Text = "Missing Data!";
                 }
@@ -37,7 +37,7 @@ namespace BookManagement.Views.Admin
                     string sName = SName.Value;
                     string sEmail = SEmail.Value;
                     string sPhone= SPhone.Value;
-                    string sAdd=SAddress.Value;
+                    string sAdd=SPass.Value;
 
                     string Query = "insert into seller values('{0}','{1}','{2}','{3}')";
                     Query = string.Format(Query, sName, sEmail, sPhone, sAdd);
@@ -62,7 +62,7 @@ namespace BookManagement.Views.Admin
             SName.Value = "";
             SEmail.Value = "";
             SPhone.Value="";
-            SAddress.Value = "";
+            SPass.Value = "";
         }
 
         int Key = 0;
@@ -71,7 +71,8 @@ namespace BookManagement.Views.Admin
             SName.Value = SellersList.SelectedRow.Cells[2].Text;
             SEmail.Value = SellersList.SelectedRow.Cells[3].Text;
             SPhone.Value = SellersList.SelectedRow.Cells[4].Text;
-            SAddress.Value = SellersList.SelectedRow.Cells[5].Text;
+            SPass.Value = SellersList.SelectedRow.Cells[5].Text;
+            
 
             if (SName.Value == "")
             {
@@ -88,7 +89,7 @@ namespace BookManagement.Views.Admin
 
             try
             {
-                if (SName.Value == "" || SEmail.Value == "" || SPhone.Value == "" || SAddress.Value == "")
+                if (SName.Value == "" || SEmail.Value == "" || SPhone.Value == "" || SPass.Value == "")
                 {
                     errMsg.Text = "Missing Data!";
                 }
@@ -97,7 +98,7 @@ namespace BookManagement.Views.Admin
                     string sName = SName.Value;
                     string sEmail = SEmail.Value;
                     string sPhone = SPhone.Value;
-                    string sAdd = SAddress.Value;
+                    string sAdd = SPass.Value;
 
                     string Query = "update seller set sname='{0}', semail='{1}', sphone='{2}', spass='{3}' where sid='{4}'";
                     Query = string.Format(Query, sName, sEmail, sPhone, sAdd, SellersList.SelectedRow.Cells[1].Text);
@@ -120,7 +121,7 @@ namespace BookManagement.Views.Admin
         {
             try
             {
-                if (SName.Value == "" || SEmail.Value == "" || SPhone.Value == "" || SAddress.Value == "")
+                if (SName.Value == "" || SEmail.Value == "" || SPhone.Value == "" || SPass.Value == "")
                 {
                     errMsg.Text = "Missing Data!";
                 }

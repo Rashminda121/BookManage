@@ -200,6 +200,7 @@
     <Content Include="Views\Admin\Categories.aspx" />
     <Content Include="Views\Admin\Seller.aspx" />
     <Content Include="Views\Login.aspx" />
+    <Content Include="Views\Seller\Billing.aspx" />
     <Content Include="Views\Seller\Selling.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -296,6 +297,13 @@
     </Compile>
     <Compile Include="Views\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Seller\Billing.aspx.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Seller\Billing.aspx.designer.cs">
+      <DependentUpon>Billing.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Seller\SellerMaster.Master.cs">
       <DependentUpon>SellerMaster.Master</DependentUpon>

@@ -12,13 +12,13 @@
         #left {
           color: white;
           height:695px;
-          background-color: teal;
+          background-color: #02487a;
         }
         label{
             color:white;
         }
         td{
-            background-color:#66BFBF;
+            background-color:#2ca1f5;
            
         }
     </style>
@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-2" id="left">
                 <div style="height:120px;">
-                    <div class="mb-3">
+                    <div class="mb-3 align-content-center">
                         <img src="../../Assets/Images/cart.png" height="40" width="40"/>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ namespace BookManagement.Views.Admin
 
         private void ShowBooks()
         {
-            String Query = "Select * from book";
+            String Query = "Select bid as Id,bname as BName, bauthor as BAuthor, bcategory as BCategory ,bqty as Quantity,bprice as Price from book";
             BooksList.DataSource = Con.GetData(Query);
             BooksList.DataBind();
         }

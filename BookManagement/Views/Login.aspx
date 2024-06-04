@@ -15,13 +15,15 @@
         </div>
         <div class="row">
             <div class="col-md-4 ">
-
+                
             </div>
             <div class="col-md-4">
                 <form id="form1" runat="server">
                     <div>
                         <div class="row">
-                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                
+                            </div>
                             <div class="col-md-8">
                                 <img src="../Assets/Images/profile.png" width="90" height="90"/>
                             </div>
@@ -30,16 +32,16 @@
                         
                     </div>
                     <div class="mt-3">
-                        <label for="" class="from-label">User Name</label>
+                        <label for="" class="from-label mb-2">User Name</label>
                         <input type="email" placeholder="Email" autocomplete="off" class="form-control" id="username" runat="server"/>
                     </div>
                     <div class="mt-3">
-                        <label for="" class="from-label">Password</label>
+                        <label for="" class="from-label mb-2">Password</label>
                         <input type="password" placeholder="Password" autocomplete="off" class="form-control" id="password" runat="server"/>
                     </div>
                     <div class="mt-3 d-grid">
                         <asp:Label runat="server" ID="errMsg" class="text-danger mb-3"></asp:Label>
-                        <asp:Button Text="Login" runat="server" class="btn-success btn" ID="loginBtn" OnClick="loginBtn_Click"/>
+                        <asp:Button Text="Login" runat="server" class=" btn" style="background-color:#02487a;color:white" ID="loginBtn" OnClick="loginBtn_Click"/>
                     </div>
 
                 </form>

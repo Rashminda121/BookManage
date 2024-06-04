@@ -18,7 +18,7 @@ namespace BookManagement.Views.Admin
         }
         private void ShowCategories()
         {
-            String Query = "Select * from category";
+            String Query = "Select cid as Id , cname as CName,cdescription as Description  from category";
             CategoriesList.DataSource = Con.GetData(Query);
             CategoriesList.DataBind();
         }

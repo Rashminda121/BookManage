@@ -31,6 +31,7 @@ namespace BookManagement.Views.Seller
                     new DataColumn("Total")
                 });
                 ViewState["Bill"]= dt;
+                ViewState["Amount"] = 0;
                 this.BindGrid();
             }
         }
@@ -79,8 +80,27 @@ namespace BookManagement.Views.Seller
             ShowBooks();
         }
 
+        private void InsertBill()
+        {
+            int total = Convert.ToInt32(ViewState["Amount"]);
+            try
+            {
+                string qry = "insert into bill values('{0}','{1}','{2}')";
+                qry = string.Format(qry, System.DateTime.Today, Seller, total);
+                Con.SetData(qry);
+                ShowBooks();
+                
+                Msg.Text = "Bill Added Successfully!";
+
+            }
+            catch(Exception ex)
+            {
+               Msg.Text = ex.Message;
+            }
+        }
+
         int Grdtotal = 0; 
-        int Amount;
+        int Amount=0;
         protected void AddToBtn_Click(object sender, EventArgs e)
         {
             
@@ -111,17 +131,26 @@ namespace BookManagement.Views.Seller
                     Grdtotal = Grdtotal + Convert.ToInt32(BillList.Rows[i].Cells[5].Text);
                     
                 }
+                ViewState["Amount"] = Grdtotal;
                 Amount = Grdtotal;
                 GrndTotal.Text = "Rs " + Amount;
-                BName.Value = "";
-                Price.Value = "";
-                Quan.Value = "";
 
+                Clear();
             }
             Grdtotal = 0;
 
+        }
 
+        public void Clear()
+        {
+            BName.Value = "";
+            Price.Value = "";
+            Quan.Value = "";
+        }
 
+        protected void printBtn_Click(object sender, EventArgs e)
+        {
+            InsertBill();
         }
     }
 }
